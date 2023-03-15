@@ -11,7 +11,7 @@ namespace ErrorSystem.Contexts
 {
     internal class DataContext : DbContext
     {
-        private readonly string _connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Hawaa\OneDrive\Skrivbord\ErrorSystem\ErrorSystem\Contexts\localdb.mdf;Integrated Security=True;Connect Timeout=30";
+        private readonly string _connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Hawaa\OneDrive\Skrivbord\ErrorSystem-experiment\ErrorSystem\Contexts\localdb.mdf;Integrated Security=True;Connect Timeout=30";
 
         #region constructors
         public DataContext()
